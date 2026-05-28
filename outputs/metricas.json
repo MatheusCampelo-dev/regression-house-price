@@ -1,0 +1,61 @@
+{
+  "n_features": 239,
+  "modelos": {
+    "Ridge": {
+      "RMSE": 24951,
+      "R2": 0.9188
+    },
+    "Lasso": {
+      "RMSE": 25462,
+      "R2": 0.9155
+    },
+    "Regress\u00e3o Linear": {
+      "RMSE": 25789,
+      "R2": 0.9133
+    },
+    "XGBoost": {
+      "RMSE": 26098,
+      "R2": 0.9112
+    },
+    "Gradient Boosting": {
+      "RMSE": 28635,
+      "R2": 0.8931
+    },
+    "Random Forest": {
+      "RMSE": 30171,
+      "R2": 0.8813
+    }
+  },
+  "melhor": "Ridge",
+  "rmse_sem_log": 26200,
+  "rmse_com_log": 26098,
+  "rmse_completo": 26098,
+  "rmse_simplificado": 33652,
+  "r2_simplificado": 0.8524,
+  "top10_features": [
+    "QualArea",
+    "OverallQual",
+    "TotalSF",
+    "GarageCars",
+    "MSZoning_RM",
+    "CentralAir_Y",
+    "KitchenQual",
+    "BsmtQual",
+    "KitchenAbvGr",
+    "HasFireplace"
+  ],
+  "cv": {
+    "Ridge": {
+      "mean": 0.15751276968781727,
+      "std": 0.03460490938004092
+    },
+    "Random Forest": {
+      "mean": 0.139192477171278,
+      "std": 0.019392602879642555
+    },
+    "XGBoost": {
+      "mean": 0.12731808763519661,
+      "std": 0.017953804381594923
+    }
+  }
+}
