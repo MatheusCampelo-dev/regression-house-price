@@ -4,4 +4,4 @@ __pycache__/
 *.pyc
 
 # Ambiente Virtual
-venv/
+venv/ 
